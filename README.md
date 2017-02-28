@@ -1,5 +1,5 @@
-# fullPageScroll
-Forcer le scroll de sections en sections
+# FullPageScroll
+Forcez le scroll de sections en sections simplement
 
 <h2> Concept </h2>
 
@@ -11,7 +11,7 @@ Il va capter l'utilisation du scroll de la souris et diriger automatiquement sur
 
 <a href="http://easyscript.fr/fullPageScroll/"> Demo en ligne </a>
 
-<h2> Initialisation </h2>
+<h2> Installation </h2>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!-- Requis avant le script fullPageScroll -->
     <script src="js/fullPageScroll.js"></script>
