@@ -1,0 +1,75 @@
+body
+{
+	overflow-x : hidden;
+	margin : 0;
+}
+
+ul
+{
+	display : flex;
+	width:100%;
+	padding:0;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom :20px;
+	background:black;
+	color:white;
+	margin : 0;
+	position:fixed;
+	top : 0;
+	z-index:1;
+}
+
+li
+{
+	list-style-type : none;
+	padding-right : 20px;
+	padding-left :  20px;
+}
+
+.scrollPage
+{
+	height : 100vh;
+	position:relative;
+}
+
+.scrollPage div
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 70px;
+	letter-spacing: 10px;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+*[class^='scrollToPage'].active
+{
+	color : green;
+	font-weight : bold;
+}
+
+#idDeMaPagea{
+	background : orange;
+}
+#idDeMaPageb{
+	background : purple;
+}
+#idDeMaPagec{
+	background : blue;
+}
+#idDeMaPaged{
+	background : yellow;
+}
+#idDeMaPagee{
+	background : green;
+}
+
+.nextPage.disabled, .prevPage.disabled
+{
+	color: grey;
+	cursor : Not-Allowed;
+}
