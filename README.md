@@ -1,5 +1,14 @@
 # fullPageScroll
 Forcer le scroll de sections en sections
+
+<h2> Concept </h2>
+
+Vous avez des sections dans votre page en fullscreen et vous voulez guidez la navigation ? (empêcher de se retrouver au scroll entre 2 sections)
+
+Ce plugin est fait pour vous.
+
+Il va capter l'utilisation du scroll de la souris et diriger automatiquement sur la section d'après/d'avant.
+
 <a href="http://easyscript.fr/fullPageScroll/"> Demo en ligne </a>
 
 <h2> Initialisation </h2>
